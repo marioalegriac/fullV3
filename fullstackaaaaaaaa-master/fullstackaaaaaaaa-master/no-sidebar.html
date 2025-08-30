@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Verti by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload right-sidebar">
+		<div id="page-wrapper">
+						<!-- Logo -->
+							<div id="">
+								<h1><a href="index.html"></a></h1>
+								<h2><center>Ofertas de la semana</center></h2>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li><a href="index.html">Inicio</a></li>
+									<li>
+										<a href="#">Productos</a>
+										<ul>
+											<li><a href="#">Lorem ipsum dolor</a></li>
+											<li><a href="#">Magna phasellus</a></li>
+											<li>
+												<a href="#">Phasellus consequat</a>
+												<ul>
+													<li><a href="#">Lorem ipsum dolor</a></li>
+													<li><a href="#">Phasellus consequat</a></li>
+													<li><a href="#">Magna phasellus</a></li>
+													<li><a href="#">Etiam dolore nisl</a></li>
+												</ul>
+											</li>
+											<li><a href="#">Veroeros feugiat</a></li>
+										</ul>
+									</li>
+									<li><a href="left-sidebar.html">Formulario</a></li>
+									<li><a href="right-sidebar.html">Ofertas de la semana</a></li>
+									<li><a href="no-sidebar.html">Carro</a></li>
+								</ul>
+							</nav>
+
+					</header>
+				</div>
+
+			
+
+	<div class="ofertas-container" id="ofertas">
+		<button class="flecha izquierda" onclick="scrollIzquierda()">&#10094;</button>
+		
+		<!-- Producto 1 -->
+		<div class="tarjeta">
+		<img width="250" height="300" src="images/spider.jpg" alt="spider">
+		
+		<div class="contenido">
+			<div class="titulo">Marvel´s Spider-man 2</div>
+			<div class="descripcion">PS5</div>
+			<div class="precio">
+			<del>$69.990</del>
+			<span class="precio-descuento">$39.990</span>
+			</div>
+		</div>
+		</div>
+		
+
+		<!-- Producto 2 -->
+		<div class="tarjeta">
+		<img width="250" height="300" src="images/re4.webp " alt="re4">
+		<div class="contenido">
+			<div class="titulo">Resident Evil 4</div>
+			<div class="descripcion">PS5</div>
+			<div class="precio">
+		<del>$69.990</del>
+		<span class="precio-descuento">$29.990</span>
+			</div>
+		</div>
+		</div>
+
+		<!-- Producto 3 -->
+		<div class="tarjeta">
+		<img width="250" height="300" src="images/god.webp" alt="god">
+		<div class="contenido">
+			<div class="titulo">God of War Ragnarök</div>
+			<div class="descripcion">PS5</div>
+			<div class="precio">
+		<del>$79.990</del>
+		<span class="precio-descuento">$49.990</span>
+			</div>
+		</div>
+		</div>
+
+		<!-- Producto 4 -->
+		<div class="tarjeta">
+		<img width="250" height="300" src="images/Mortal_Kombat_1_key_art.jpeg" alt="Mortal_Kombat_1_key_art">
+		<div class="contenido">
+			<div class="titulo">Mortal Kombat 1</div>
+			<div class="descripcion">PS5</div>
+			<div class="precio">
+		<del>$59.990</del>
+		<span class="precio-descuento">$16.990</span>
+			</div>
+		</div>
+		</div>
+
+		<div class="tarjeta">
+		<img width="250" height="300" src="images/bo7.webp" alt="bo7">
+		<div class="contenido">
+			<div class="titulo">Call of Duty</div>
+			<div class="descripcion">PS5</div>
+			<div class="precio">
+		<del>$69.990</del>
+		<span class="precio-descuento">$38.990</span>
+			</div>
+		</div>
+		</div>
+
+		<div class="tarjeta">
+		<img width="250" height="300" src="images/red.jpg" alt="red">
+		<div class="contenido">
+			<div class="titulo">Red Dead Redemption 2</div>
+			<div class="descripcion">PS5</div>
+			<div class="precio">
+		<del>$59.990</del>
+		<span class="precio-descuento">$14.990</span>
+			</div>
+		</div>
+		</div>
+
+		<div class="tarjeta">
+		<img width="250" height="300" src="images/silent.jpg" alt="gta">
+		<div class="contenido">
+			<div class="titulo">Silent Hill 2</div>
+			<div class="descripcion">PS5</div>
+			<div class="precio">
+		<del>$69.990</del>
+		<span class="precio-descuento">$43.990</span>
+			</div>
+		</div>
+		<button class="flecha derecha" onclick="scrollDerecha()">&#10095;</button>
+		</div>
+	
+
+		<!-- Scripts -->
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+    function scrollIzquierda() {
+      document.getElementById('ofertas').scrollBy({ left: -320, behavior: 'smooth' });
+    }
+
+    function scrollDerecha() {
+      document.getElementById('ofertas').scrollBy({ left: 320, behavior: 'smooth' });
+    }
+
+	
+  		</script>
+	</body>
+</html>
